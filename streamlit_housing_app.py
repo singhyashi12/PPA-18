@@ -60,7 +60,7 @@ else:
     st.text("Intercept="+str(reg.intercept_))
     st.text("Coefficient="+str(reg.coef_))
     st.text("R^2="+str(r2_score(Y_test,Y_pred)))    
-st.set_option('deprecation.showPyplotGlobalUse',False)
+#st.set_option('deprecation.showPyplotGlobalUse',False)
 #sns.regplot(Y_test,Y_pred)
 #st.pyplot()
 count=0
